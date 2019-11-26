@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'bl+^!bb+g8&w2b_8c=(m&^$-(a)r339r8oh3l8s2b2bu8s2e0a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = ["watercrawler.pythonanywhere.com"]
 
 
 # Application definition
