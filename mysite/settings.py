@@ -25,7 +25,7 @@ SECRET_KEY = 'bl+^!bb+g8&w2b_8c=(m&^$-(a)r339r8oh3l8s2b2bu8s2e0a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["watercrawler.pythonanywhere.com"]
+ALLOWED_HOSTS = ["watercrawler.pythonanywhere.com", 'localhost']
 
 
 # Application definition
@@ -120,3 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+LOGIN_REDIRECT_URL = '/'
